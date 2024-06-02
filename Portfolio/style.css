@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    /* Set a light gray background color for the entire page */
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ff6f61;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+header h1,
+header p {
+    text-align: center;
+    color: #333;
+    font-family: 'Arial Black', sans-serif;
+    /* Use a bold font for the header */
+}
+
+section#projects {
+    background-color: #dfa9a9;
+    /* Set a light blue background color for the projects section */
+    padding: 20px 0;
+}
+
+.project {
+    margin-bottom: 30px;
+    font-size: large;
+    line-height: 1.5;
+}
+
+.project h3 {
+    color: #333;
+    font-size: xx-large;
+    font-family: 'Times New Roman', serif;
+    /* Use a serif font for project titles */
+}
+
+.project p {
+    color: #1a1616;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+    /* Use a sans-serif font for project descriptions */
+}
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media queries for responsive design */
+@media screen and (min-width: 768px) {
+    .project img {
+        max-width: 50%;
+        /* Adjust the image size for screens wider than 768px */
+    }
+}
+
+footer#resume {
+    background-color: #ffe6e6;
+    /* Set a light pink background color for the resume section */
+    color: #333;
+    /* Set text color to dark gray */
+    padding: 100px 0;
+    text-align: center;
+}
+
+footer#resume h2 {
+    font-family: 'Verdana', sans-serif;
+    /* Use a sans-serif font for resume section header */
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+footer#resume p {
+    font-size: 18px;
+    font-family: 'Georgia', serif;
+    /* Use a serif font for resume content */
+}
